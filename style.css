@@ -177,29 +177,35 @@ p.title-box {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
 }
+
 .ps3 {
     width: 100%;
     text-align: center;
 }
+
 .ps3 img {
     width: 270px;
     max-width: 100%;
     height: auto;
 }
+
 .content-section-3,
 .content-section-4 {
     text-align: center;
     max-width: 776px;
     margin: 0 auto;
 }
+
 .section-4 {
     font-family: 'Comic Neue', sans-serif;
     padding-bottom: 160px;
 }
+
 .section-4 p {
     font-family: 'Comic Neue', sans-serif;
     font-weight: 400;
 }
+
 .box-s4 {
     background-color: #fff;
     border-radius: 16px;
@@ -209,6 +215,7 @@ p.title-box {
     padding: 15px;
     color: #0C1C28;
 }
+
 .content-section-4 {
     font-weight: 400;
     padding-bottom: 40px;
@@ -349,6 +356,12 @@ footer div {
 }
 
 @media(max-width:768px) {
+
+
+    nav {
+        left: 88%;
+
+    }
 
     .section-1 h1 {
 
