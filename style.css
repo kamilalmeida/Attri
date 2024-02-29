@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'Comic Neue';
+    src: url('./assets/fonts/ComicNeue-Bold.ttf') format('truetype');
+    src: url('./assets/fonts/ComicNeue-Light.ttf') format('truetype');
+    src: url('./assets/fonts/ComicNeue-Regular.ttf') format('truetype');
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+p,
+a {
+    padding: 0;
+    margin: 0 !important;
+}
+
+header {
+    background-color: #0C1C28;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 99999999999;
+}
+
+nav {
+    position: relative;
+    left: 95%;
+    top: 25%;
+    cursor: pointer;
+}
+
+#navbar.scrolled {
+    background-color: #0c1c28d4 !important;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+main {
+    background-color: #0c1c28e6;
+    color: #fff;
+    text-align: center;
+}
+
+.section-1 {
+    background: url(./assets/banner.png) center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-section-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-section-1 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+}
+
+.section-1 h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Comic Neue", cursive;
+}
+
+.section-1 p {
+    font-size: 2.25rem;
+    color: #fff;
+}
+
+button.btn-custom {
+    background-color: #fff;
+    color: #0C1C28;
+    font-weight: 700;
+    padding: 0;
+    font-size: 2rem;
+    width: 291px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 29px;
+    margin: 134px 0 42px 0px;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+.section-2 {
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: 400;
+}
+
+.box {
+    padding: 122px 0 138px 0;
+}
+
+.custom-box {
+    width: 215px;
+    height: 250px;
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+.custom-box p {
+    padding: 12px 0;
+    font-size: 1rem;
+}
+
+p.title-box {
+    font-size: 1.5rem;
+
+}
+
+.btn-box {
+    width: 129px;
+    height: 31px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-family: 15px;
+
+}
+
+.section-3 {
+    padding-bottom: 94px;
+}
+
+.section-3 p {
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: 400;
+}
+
+.section-3 h2,
+.section-4 h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 17px;
+    font-family: 'Comic Neue', sans-serif;
+
+
+}
+
+.content-section-3 {
+    padding-bottom: 80px;
+}
+
+.ps3 {
+    font-size: .875rem;
+    text-align: center;
+}
+
+.box-s3 {
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.box-section-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.ps3 {
+    width: 100%;
+    text-align: center;
+}
+.ps3 img {
+    width: 270px;
+    max-width: 100%;
+    height: auto;
+}
+.content-section-3,
+.content-section-4 {
+    text-align: center;
+    max-width: 776px;
+    margin: 0 auto;
+}
+.section-4 {
+    font-family: 'Comic Neue', sans-serif;
+    padding-bottom: 160px;
+}
+.section-4 p {
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: 400;
+}
+.box-s4 {
+    background-color: #fff;
+    border-radius: 16px;
+    width: 368px;
+    height: 396px;
+
+    padding: 15px;
+    color: #0C1C28;
+}
+.content-section-4 {
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.box-s4 img {
+    padding-bottom: 20px;
+}
+
+.box-s4 {
+    color: #0C1C28;
+}
+
+.text1 {
+    padding-top: 120px;
+}
+
+.text2 {
+    padding-top: 50px;
+
+}
+
+.text3 {
+    padding-top: 30px;
+}
+
+.section-5 {
+    background: url(./assets/contato.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Neue", cursive;
+}
+
+.background-container {
+    background-color: #0C1C28;
+    width: 861px;
+    height: 435px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.form-container {
+    border-radius: 10px;
+    z-index: 1;
+}
+
+button.btn-form {
+    background-color: #fff;
+    color: #0C1C28;
+    padding: 0;
+    font-size: 1.5rem;
+    width: 297px;
+    height: 60px;
+    border-radius: 30px;
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: 700;
+}
+
+.form-container input {
+    border: solid 1px #fff;
+    background-color: transparent;
+    border-radius: 15px;
+
+    width: 374px;
+    height: 50px;
+}
+
+.form-container textarea {
+    width: 100%;
+    height: 50px;
+    border: solid 1px #fff;
+    background-color: transparent;
+    border-radius: 15px;
+
+}
+
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+    color: #ffffff;
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: 700;
+}
+
+footer div {
+    background-color: #0C1C28;
+    color: #fff;
+    font-size: 1.25rem;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Largura da barra de rolagem */
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Estilizando o "thumb" (o indicador da posição atual na barra de rolagem) */
+::-webkit-scrollbar-thumb {
+    background-color: #0C1C28;
+    border-radius: 5px;
+    /* Borda arredondada do "thumb" */
+}
+
+/* Mudança de cor quando o "thumb" é passado por cima */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0C1C28;
+}
+
+@media(max-width:1199px) {}
+
+@media(max-width:991px) {
+    .form-container input {
+        width: 321px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .section-1 h1 {
+
+        font-size: 3rem;
+    }
+
+    .content-section-1 p {
+        font-size: 1.8rem;
+    }
+
+    .background-container {
+
+        display: flex;
+        width: 450px;
+        height: 500px;
+    }
+
+    .form-container input {
+        border: solid 1px #fff;
+        background-color: transparent;
+        border-radius: 15px;
+
+        width: 100%;
+        height: 50px;
+    }
+
+}
