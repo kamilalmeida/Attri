@@ -172,10 +172,10 @@ p.title-box {
     margin: 0 auto;
 }
 
-.box-section-3 {
+.box-s3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .ps3 {
@@ -204,6 +204,12 @@ p.title-box {
 .section-4 p {
     font-family: 'Comic Neue', sans-serif;
     font-weight: 400;
+}
+
+.box-section-3 {
+    max-width: 1129px;
+    margin: 0 auto;
+
 }
 
 .box-s4 {
@@ -347,7 +353,6 @@ footer div {
     background-color: #0C1C28;
 }
 
-@media(max-width:1199px) {}
 
 @media(max-width:991px) {
     .form-container input {
@@ -378,7 +383,6 @@ footer div {
         width: 450px;
         height: 500px;
     }
-
     .form-container input {
         border: solid 1px #fff;
         background-color: transparent;
